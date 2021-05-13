@@ -1,0 +1,18 @@
+h3
+{
+ font-size: 30px !important;
+}
+canvas 
+{
+  border:20px solid black;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 1px 1px 38px darkmagenta}
+    50% {box-shadow: 1px 1px 38px blueviolet;}
+    100% {box-shadow: 1px 1px 38px yellow;}
+}
+
